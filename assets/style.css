@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*------header------*/
+
+
+.header{
+    height: 60px;
+    background-color: #cbcbcb;
+}
+
+.nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item{
+    list-style-type: none;
+    display: inline;
+    font-size: 1.2rem;
+    padding-left: 60px;
+}
+
+.nav-item:first-child{
+    padding-left: 0px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    width: 30%;
+    min-height: 100%;
+    background: #2f313e;
+ 
+}
+
+.education{
+    display: flex;
+     
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info{
+    display: flex;
+    
+    background-color: rgba(0, 0, 0, 0.28);
+    
+    
+    
+    
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.photo{
+    line-height: 0;   
+}
+
+.photo-position{
+    object-position: -140px 0px;
+}
+
+.contaier-2{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    flex: 0 0 auto;
+    height: 100%;
+}
+
+.left-title{
+    color: white;
+    padding-left: 30px;
+    border-left: solid 25px #ccba2b;
+    background-color: rgba(119, 119, 119, 0.23);
+    
+    margin-top: 45px;
+    margin-bottom: 65px;
+        
+    
+}
+
+.left-title1{
+    color: white;
+    padding-left: 30px;
+    border-left: solid 25px #ccba2b;
+    background-color: rgba(119, 119, 119, 0.23);
+    
+    margin-top: 35px;
+    margin-bottom: 65px;
+        
+    
+}
+
+
+.left-list{
+    list-style: none;
+    margin: 0;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 0;
+    
+}
+
+.education-item{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contact-item{
+    margin-bottom: 60px;
+    
+    color: white;
+    font-size: 1.2rem;
+    
+}
+
+
+.social{
+    display: block;
+    padding-top: 10px;
+    
+    text-decoration: none;
+    color: #ccba2b;
+    
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    
+    -webkit-text-decoration-color: transparent;
+    -moz-text-decoration-color: transparent;
+
+    transition: 0.2s;
+    
+}
+
+.social:hover{
+    color: #d6e563;
+    text-decoration-color: #d6e563;
+    
+    -webkit-text-decoration-color: red;
+    -moz-text-decoration-color: red;
+    
+}
+
+
+.right{
+    flex: 0 0 auto;
+    width: 70%;
+    min-height: 100%;
+    background-image: url(./img/pattern.png);
+}
+
+
+.contaier-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    flex: 0 0 auto;
+    height: 100%;
+}
+
+.title{
+    font-size: 2rem;
+    padding-left: 50px;
+    
+    width: 100%;
+    
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.right-title{
+    color: black;
+    padding-left: 30px;
+    
+    margin-bottom: 45px;
+    
+    border-left: solid 25px #ccba2b;
+    background-color: #cbcbcb;
+}
+
+
+.about p {
+    font-size: 1.1rem;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.skills{
+    margin-top: 65px;
+}
+
+.skills-list{
+    padding-left: 45px;
+    
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+.skill-item{
+    padding-top: 15px;
+}
+
+.skill-item:first-child{
+    padding-top: 0;
+}
+
+.code{
+    margin-top: 65px;
+}
+
+pre{
+    padding-left: 45px;
+}
+
+.courses{
+    margin-top: 65px;
+}
+
+.course-list{
+    padding-left: 45px;
+    
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+
+.course-item{
+    padding-top: 15px;
+}
+
+.projects{
+    margin-top: 65px;
+}
+
+.cv-item{
+    text-decoration: none;
+    color: #a59831;
+    
+
+    transition: 0.2s;
+}
+
+.cv-item:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.project-list{
+    padding-left: 45px;
+    
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+.project-item{
+    padding-top: 15px;
+}
+
+.language{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 120px;
+    background-color: #cbcbcb;
+}
+
+.footer-inner{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.footer-wiki{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+    
+}
+
+.footer-wiki:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
